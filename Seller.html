@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+	<meta charset="utf-8">	
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
+	<link rel="stylesheet" type="text/css" href="./Style/MainStyle.css">
+	<script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+	<script src="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+
+		<title>Seller</title>
+	<body>
+	<div class="container">
+	<div class="title">
+	<h1>Seller</h1>
+	</div>
+	<br>
+	<div class="btn">
+	<button id='btn1' class="ui-button ui-button-text-only ui-widget ui-state-default ui-corner-all">
+		<span class="ui-button-text">Order Status</span>
+	</button>
+	</div>
+	<br>
+	<div class="btn">
+	<button id='btn2' class="ui-button ui-button-text-only ui-widget ui-state-default ui-corner-all">
+		<span class="ui-button-text">Store Management</span>
+	</button>
+    </div>
+
+	</div>
+	<script>
+	$('#btn1').click(function() {
+    	window.location.href = 'Curorder.html';
+    	return false;
+	});
+	$('#btn2').click(function() {
+    	window.location.href = 'Statistics.html';
+    	return false;
+	});
+	</script>
+	</body>
+</html>

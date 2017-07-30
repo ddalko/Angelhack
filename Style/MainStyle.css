@@ -1,0 +1,23 @@
+	div.container{
+	    width:80%;
+	    height:80%;
+	    border:1px solid #555;
+	    position:relative;
+	    top:10%;
+	    left:10%;
+	}
+	div.title{
+		text-align:center;
+		font-size:xx-large;
+	}
+	div.btn{
+		position:relative;
+		text-align:center;
+	}
+	div.copyright{
+		text-align:center;
+	}
+	div.res{
+		text-align:center;
+		font-size:xx-large;
+	}
